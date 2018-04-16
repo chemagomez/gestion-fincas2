@@ -72,15 +72,24 @@ ul.withArrow li{
 	
 }
 ul.withArrow li span{
-	margin-right: 10px;
-	font-weight: 700;
-	color: #29448e;
-	border: 1px solid;
-	padding: 4px 8px;
-	font-size: 11px;
-	border-radius: 50%;
-	height: 20px;
-	width: 20px;
+	
+margin-right: 10px;
+	
+font-weight: 700;
+	
+color: #29448e;
+	
+border: 1px solid;
+	
+padding: 4px 8px;
+	
+font-size: 11px;
+	
+border-radius: 50%;
+	
+height: 20px;
+	
+width: 20px;
 }
 .widget {
     color: rgba(255, 255, 255, 0.77);
@@ -1766,7 +1775,12 @@ padding-top: 3px;
   header  .navbar-nav > li > a{
 	  line-height: 18px;
 	 }
-
+	 .logo {
+    width: 170px;
+	}
+	.flex-caption {zoom: 1;bottom: 28px;background-color: transparent;color: #fff;margin: 0;padding: 2px 25px 0px 30px;/* position: absolute; */left: 0;text-align: left;margin: 0 auto;right: 0px;display: inline-block;bottom: 65%;width: 93%;right: 0 !important;border-radius: 15px 15px 0 0;}
+	.flex-caption h3 {color: #37393c;letter-spacing: 0px;margin-bottom: -100px;text-transform: uppercase;font-size: 20px;font-weight: 700;}
+	.flex-caption p {margin: 100px 0 18px;font-size: 12px;font-weight: 400;}
 }
 
 @media (max-width: 480px) {
