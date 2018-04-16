@@ -24,6 +24,12 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-thymeleaf</artifactId>
+                 <exclusions>
+            <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+            </exclusion>
+        </exclusions>
         </dependency>
 
         <!-- Spring Security -->
@@ -31,11 +37,11 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
             <exclusions>
-                  <exclusion>
-                           <groupId>org.apache.tomcat.embed</groupId>
-                           <artifactId>tomcat-embed-websocket</artifactId>
-                   </exclusion>
-            </exclusions>
+            <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+            </exclusion>
+        </exclusions>
         </dependency>
 
         <dependency>
