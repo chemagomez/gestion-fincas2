@@ -6,10 +6,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class PublicController {
 
-    
-    @GetMapping("/public/index")
-    public String index() {
-        return "/public/index";
-    }    
+	@GetMapping("/public/index")
+	public String index() {
+		return "/public/index";
+	}
 
 }
